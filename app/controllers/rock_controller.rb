@@ -1,5 +1,5 @@
-class ZebraController < ApplicationController
-  def giraffe
+class RockController < ApplicationController
+  def play_rock
     moves = ["rock","paper","scissors"] #create array
     @comp_move = moves.sample
       if @comp_move == "rock"
